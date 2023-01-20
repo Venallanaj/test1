@@ -11,9 +11,9 @@ request(URL, function (err, res, body) {
     let $ = cheerio.load(body); //loading of complete HTML body
 
     $("container > #buttonsSearch>col-lg-3").each(function (index) {
-      const link = $(this).find("").attr("href");
+      const link = $(this).find("col-lg-3").attr("");
       const name = $(this).find("container > #buttonsSearch>col-lg-3").text();
-      console.log(success);
+      console.log("succes");
       console.log(link);
       console.log(name);
     });
