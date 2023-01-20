@@ -1,0 +1,24 @@
+{
+  "name": "web-crawler-nodejs",
+  "version": "1.0.0",
+  "description": "\"Nodejs | Web Crawling using Cheerio\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tonel/web-crawler-nodejs.git"
+  },
+  "author": "\"Vena\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tonel/web-crawler-nodejs/issues"
+  },
+  "homepage": "https://github.com/Tonel/web-crawler-nodejs#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "fs": "0.0.1-security",
+    "request": "^2.88.2"
+  }
+}
